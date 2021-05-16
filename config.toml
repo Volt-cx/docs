@@ -5,7 +5,7 @@ DefaultContentLanguage = "en"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 enableMissingTranslationPlaceholders = false
-theme = "docdock"
+theme = "hugo-theme-docdock"
 pygmentsCodeFences = true
 pygmentsStyle = "monokailight"
 
@@ -25,7 +25,7 @@ section = ["HTML","JSON"]
 pre = "<h3>More</h3>"
 name = "<i class='fa fa-github'></i> <label>Volt.cx repo</label>"
 identifier = "ds"
-url = "https://github.com/vjeantet/hugo-theme-docdock"
+url = "https://github.com/Volt-cx"
 weight = 10
 
 [[menu.shortcuts]]
