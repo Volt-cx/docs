@@ -1,5 +1,5 @@
 [base]
-baseURL = "/"
+baseURL = "https://volt-cx.github.io/docs/"
 title = "Volt.cx Documentation"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
