@@ -1,30 +1,25 @@
-[base]
-baseURL = "https://volt-cx.github.io/docs/"
+baseURL = "/"
 title = "Volt.cx Documentation"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir= false
+defaultContentLanguageInSubdir = false
 enableMissingTranslationPlaceholders = false
 theme = "docdock"
 pygmentsCodeFences = true
 pygmentsStyle = "monokailight"
 
 [params]
+disableHomeIcon = true
 editURL = "https://github.com/vjeantet/hugo-theme-docdock/edit/master/exampleSite/content/"
-showVisitedLinks = true
-themeStyle = "flex"
-themeVariant = ""
-ordersectionsby = "weight"
-disableHomeIcon = false
-disableSearch = false
-disableNavChevron = false
-highlightClientSide = false
-menushortcutsnewtab = false
-enableGitInfo = true
+github_repo = "https://github.com/volt-cx/docs/"
+github_project_repo = "https://github.com/volt.cx/"
+offlineSearch = true
 
 [outputs]
-home = [ "HTML", "RSS", "JSON"]
+home = ["HTML","RSS","JSON"]
+page = ["HTML","JSON"]
+section = ["HTML","JSON"]
 
 [[menu.shortcuts]]
 pre = "<h3>More</h3>"
