@@ -1,25 +1,26 @@
+[base]
 baseURL = "/"
+title = "Volt.cx Documentation"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "Volt.cx Documentation"
-theme = "/themes/docdock"
-pygmentsCodeFences = true
-pygmentsStyle = "monokailight"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir= false
 enableMissingTranslationPlaceholders = false
+theme = "docdock"
+pygmentsCodeFences = true
+pygmentsStyle = "monokailight"
 
 [params]
 editURL = "https://github.com/vjeantet/hugo-theme-docdock/edit/master/exampleSite/content/"
-showVisitedLinks = true # default is false
-themeStyle = "flex" # "original" or "flex" # default "flex"
-themeVariant = "" # choose theme variant "green", "gold" , "gray", "blue" (default)
-ordersectionsby = "weight" # ordersectionsby = "title"
-disableHomeIcon = false # default is false
-disableSearch = false # default is false
-disableNavChevron = false # set true to hide next/prev chevron, default is false
-highlightClientSide = false # set true to use highlight.pack.js instead of the default hugo chroma highlighter
-menushortcutsnewtab = false # set true to open shortcuts links to a new tab/window
+showVisitedLinks = true
+themeStyle = "flex"
+themeVariant = ""
+ordersectionsby = "weight"
+disableHomeIcon = false
+disableSearch = false
+disableNavChevron = false
+highlightClientSide = false
+menushortcutsnewtab = false
 enableGitInfo = true
 
 [outputs]
